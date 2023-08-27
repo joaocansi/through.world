@@ -1,4 +1,7 @@
 .richtext {
+  width: 100%;
+  margin-top: 2em;
+
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 1rem;
@@ -61,5 +64,19 @@
   /* Strong */
   strong {
     font-weight: bold;
+  }
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+
+    img { 
+      width: 100%;
+      border-radius: 10px;
+    }
   }
 }
