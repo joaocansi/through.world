@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="/earth-globe.png" type="image/x-icon" />
           <meta name="keywords" content="trips,world,flights,eurotrip,my trips,about my trips,travel,travelling around the world" />
-          <title>Through.World - Conheça as Minhas Viagens.</title>
+          <title>Through.World - Conheça as Minhas Viagens</title>
         </Head>
         <body>
           <Main />
