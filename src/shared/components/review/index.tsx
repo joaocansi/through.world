@@ -7,6 +7,8 @@ import RichText from '../rich-text';
 
 export default function Review() {
   const { selectedMarker, isMarkerSelected, setSelectedMarker } = useMarker();
+  const close = () => setSelectedMarker(undefined);
+
   return (
     <div className={`${styles.container} ${isMarkerSelected() ? styles.visible : ''}`}>
       {isMarkerSelected() && (
@@ -14,7 +16,7 @@ export default function Review() {
           <FaTimes
             size={32}
             cursor="pointer"
-            onClick={() => setSelectedMarker(undefined)}
+            onClick={close}
           />
           <Logo />
           <div className={styles.information}>

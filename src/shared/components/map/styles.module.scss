@@ -11,4 +11,10 @@
       width: calc(100% - 750px);
     }
   }
+
+  @media (max-width: 1000px) {
+    &.visible {
+      width: 0;
+    }
+  }
 }
