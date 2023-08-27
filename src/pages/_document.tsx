@@ -5,8 +5,12 @@ import Document, {
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
-        <Head />
+      <Html lang="pt-BR">
+        <Head>
+          <link rel="shortcut icon" href="/earth-globe.png" type="image/x-icon" />
+          <meta name="keywords" content="trips,world,flights,eurotrip,my trips,about my trips,travel,travelling around the world" />
+          <title>Through.World - Conheça as Minhas Viagens.</title>
+        </Head>
         <body>
           <Main />
           <NextScript />
