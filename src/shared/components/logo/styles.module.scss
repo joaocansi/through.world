@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  img { width: 40px; }
+  h1 {
+    font-weight: 900;
+    font-size: 3.25em;
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,65 @@
+.richtext {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  /* Paragraphs */
+  p {
+    margin-bottom: 1.25rem;
+    font-size: 1.7em;
+    text-align: justify;
+  }
+
+  /* Links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Lists */
+  ul, ol {
+    margin-left: 1.5rem;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    margin: 0 0 1rem;
+  }
+
+  /* Code */
+  code {
+    font-family: 'Courier New', monospace;
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+  }
+
+  /* Emphasis */
+  em {
+    font-style: italic;
+  }
+
+  /* Strong */
+  strong {
+    font-weight: bold;
+  }
+}
